@@ -7,10 +7,10 @@ __dash = "============================="
 
 
 def __printKey(msg, fileName):
-    print("\n%s" % __dash,
+    print(__dash,
           msg, "- %s" % os.path.basename(fileName),
           "- Created by %s" % __creator,
-          "%s\n" % __dash)
+          __dash)
 
 
 def hello(fileName, clear=True):  # Adds a default value for clear if one is not passed
@@ -20,7 +20,9 @@ def hello(fileName, clear=True):  # Adds a default value for clear if one is not
     """
     if clear:
         clearConsole()
+
     __printKey("START", fileName)
+    print()
 
 
 def goodbye(fileName):
@@ -28,6 +30,7 @@ def goodbye(fileName):
     """
     Adds footer message
     """
+    print()
     __printKey("END", fileName)
 
 

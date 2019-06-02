@@ -12,7 +12,24 @@ s5 = "E"
 s6 = "F"
 
 print("Using + vs , for string prints:")
-print(s1 + s2 + s3)
-print(s4, s5, s6)
+print("Using + :", s1 + s2 + s3)
+print("Using , :", s4, s5, s6)
+print()
+
+trippleQuote = """
+START
+With tripple quote you can print alot.
+
+It also stores the returns apprently
+I wonder if it 		does indents
+
+
+Yes it does
+It also stores the returns
+END
+"""
+
+print("Regular:", trippleQuote)
+print("Raw: %r" % trippleQuote)
 
 FileWrapper.goodbye(__file__)
