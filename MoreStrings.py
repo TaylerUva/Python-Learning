@@ -16,7 +16,7 @@ print("Using + :", s1 + s2 + s3)
 print("Using , :", s4, s5, s6)
 print()
 
-trippleQuote = """
+tripleDoubleQuote = """
 START
 With tripple quote you can print alot.
 
@@ -29,7 +29,7 @@ It also stores the returns
 END
 """
 
-print("Regular:", trippleQuote)
-print("Raw: %r" % trippleQuote)
+print("Regular:", tripleDoubleQuote)
+print("Raw: %r" % tripleDoubleQuote)
 
 FileWrapper.goodbye(__file__)
