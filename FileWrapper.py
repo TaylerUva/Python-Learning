@@ -19,7 +19,7 @@ def hello(fileName, clear=True):  # Adds a default value for clear if one is not
     Clears the console and adds a header message.
     """
     if clear:
-        clearConsole()
+        __clearConsole()
 
     __printKey("START", fileName)
     print()
@@ -34,7 +34,7 @@ def goodbye(fileName):
     __printKey("END", fileName)
 
 
-def clearConsole():
+def __clearConsole():
     # Documentation Formatting
     """
     Clears the terminal screen.
