@@ -1,5 +1,5 @@
-import FileWrapper
-FileWrapper.hello(__file__)
+from uva_libs import hello, goodbye
+hello(__file__)
 
 num1 = 5
 num2 = 2
@@ -15,4 +15,4 @@ num2 = temp
 quotient = num1 / num2
 print("The quotient of", num1, "and", num2, "is", quotient)
 
-FileWrapper.goodbye(__file__)
+goodbye(__file__)

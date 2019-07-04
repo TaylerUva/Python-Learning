@@ -1,5 +1,5 @@
-import FileWrapper
-FileWrapper.hello(__file__)
+import uva_libs
+uva_libs.hello(__file__)
 
 print("""Please select a questioning style:
 1. Question Style
@@ -25,4 +25,4 @@ else:
 
 print("\nHello %s, %s" % (name, status))
 
-FileWrapper.goodbye(__file__)
+uva_libs.goodbye(__file__)
